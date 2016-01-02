@@ -86,9 +86,6 @@
         console.error('Epic failure!');
       }
     }
-
-  }
-
     /**
      * @name getAuthenticatedAccount
      * @desc Return the currently authenticated account
@@ -133,5 +130,6 @@
     function unauthenticate() {
       delete $cookies.authenticatedAccount;
     }
+  }
 
 })();
