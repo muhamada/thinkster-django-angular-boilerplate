@@ -5,6 +5,7 @@
     .module('thinkster', [
       'thinkster.config',
       'thinkster.routes',
+      'thinkster.utils',
       'thinkster.authentication',
       'thinkster.layout',
       'thinkster.posts'
